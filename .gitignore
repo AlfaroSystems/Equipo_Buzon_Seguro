@@ -1,0 +1,22 @@
+# ── Datos sensibles: NUNCA se suben al repositorio ──
+# Claves privadas, directorio, confianza, documentos recibidos y bitácora
+datos/
+*.pem
+*.key
+# Paquetes cifrados de prueba
+*.buzon
+# Copias de respaldo que crea atacante.py
+*.bak
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── Editores y sistema ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

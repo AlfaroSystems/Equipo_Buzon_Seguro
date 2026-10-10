@@ -1,0 +1,4 @@
+# Biblioteca criptográfica profesional (la misma de los laboratorios)
+cryptography>=42.0
+# Solo para ejecutar las pruebas automatizadas P1 a P8
+pytest>=8.0
