@@ -108,6 +108,10 @@ Para P5, `orden.txt` puede ser cualquier archivo de texto, por ejemplo uno que d
 
 ## 5. Diseño criptográfico
 
+![Flujo de envío y recepción de Buzón Seguro](docs/diagrama_flujo.png)
+
+*Flujo de envío y recepción. Los colores indican la familia de algoritmo y la columna central muestra qué viaja en claro.*
+
 **Envío** (`cifrar`):
 
 1. Se comprueba que la huella del destinatario sigue siendo la que se verificó (RF2).
@@ -136,6 +140,7 @@ buzon_seguro/
 ├── errores.py           Errores con mensajes genéricos
 └── cli.py               Comandos y mensajes al usuario
 tests/test_seguridad.py  Pruebas automatizadas P1 a P8
+docs/diagrama_flujo.png  Diagrama del flujo criptográfico (Figura 1 del informe)
 ```
 
 Datos que genera el programa (en `datos/`, **excluidos del repositorio** por `.gitignore`):
